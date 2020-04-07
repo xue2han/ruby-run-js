@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "ruby_run_js"
+
+interpreter = RubyRunJs::Interpreter.new
+
+loop do 
+  js_code = gets
+  interpreter.run(js_code)
+  puts interpreter.current_value
+  puts 'Stack:'
+  interpreter.current_stack.each do |v|
+    puts v
+  end
+end

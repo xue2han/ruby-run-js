@@ -1,0 +1,6 @@
+AllCops:
+  UseCache: true
+  DefaultFormatter: progress
+  DisplayStyleGuide: true
+  DisplayCopNames: false
+  TargetRubyVersion: 2.6

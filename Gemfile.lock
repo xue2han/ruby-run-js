@@ -1,0 +1,44 @@
+PATH
+  remote: .
+  specs:
+    ruby-run-js (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    debase (0.2.4.1)
+      debase-ruby_core_source (>= 0.10.2)
+    debase-ruby_core_source (0.10.5)
+    diff-lcs (1.3)
+    parallel (1.18.0)
+    rake (10.5.0)
+    rspec (3.9.0)
+      rspec-core (~> 3.9.0)
+      rspec-expectations (~> 3.9.0)
+      rspec-mocks (~> 3.9.0)
+    rspec-core (3.9.1)
+      rspec-support (~> 3.9.1)
+    rspec-expectations (3.9.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.9.0)
+    rspec-mocks (3.9.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.9.0)
+    rspec-support (3.9.2)
+    ruby-debug-ide (0.7.0)
+      rake (>= 0.8.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.17)
+  debase
+  parallel
+  rake (~> 10.0)
+  rspec (~> 3.0)
+  ruby-debug-ide
+  ruby-run-js!
+
+BUNDLED WITH
+   1.17.3
